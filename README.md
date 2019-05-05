@@ -10,7 +10,8 @@ Currently, Iranian markets (Cafe Bazaar, Myket, Iran Apps, Jhoobin and Avval Mar
 4. This patch will **NOT** change the behavior of any parts of your codes. It only changes the target intent of your market.
 
 ## Implementation
-First, implement Unity Purchasing into your project through Unity Services.
+First, implement Unity Purchasing into your project through Unity Services ([How?](https://unity3d.com/learn/tutorials/topics/ads-analytics/integrating-unity-iap-your-game)).
+
 Then, navigate to `<your-project-folder>/Assets/Plugins/UnityPurchasing/Bin/Android` and replace the `GooglePlay.aar` with the one provided in this repo.
 
 DONE!
