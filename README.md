@@ -33,3 +33,8 @@ Whenever you implemented the IAP correctly in your project, the project will wor
 
 ## Known bugs
 - In all markets except Play Store, the app will be restarted if the purchase is failed (User cancelling the purchase or anything else). I couldn't figure out the problem, so I appreciate anyone who can improve this code and fix this bug.
+
+# Used by...
+1. [FCMine - Online Football Management Game](https://play.google.com/store/apps/details?id=com.avagames.fcmine)
+
+Send me your app after you published it in markets, and I will add it in the list!
