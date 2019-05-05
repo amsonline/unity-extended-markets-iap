@@ -11,7 +11,7 @@ Currently, Iranian markets (Cafe Bazaar, Myket, Iran Apps, Jhoobin and Avval Mar
 
 ## Implementation
 First, implement Unity Purchasing into your project through Unity Services.
-Then, go to <your-project-folder>/Assets/Plugins/UnityPurchasing/Bin/Android and replace the GooglePlay.aar with the one provided in this repo.
+Then, navigate to `<your-project-folder>/Assets/Plugins/UnityPurchasing/Bin/Android` and replace the `GooglePlay.aar` with the one provided in this repo.
 
 DONE!
 
@@ -27,6 +27,8 @@ The library detects the version through the permission in your manifest. You mus
 **Iran Apps:** `<uses-permission android:name="ir.tgbs.iranapps.permission.BILLING "/>`
 
 **Avval Market:** `<uses-permission android:name="com.hrm.android.market.permission.PAY_THROUGH_MARKET" />`
+
+Whenever you implemented the IAP correctly in your project, the project will work like a charm!
 
 ## Known bugs
 - In all markets except Play Store, the app will be restarted if the purchase is failed (User cancelling the purchase or anything else). I couldn't figure out the problem, so I appreciate anyone who can improve this code and fix this bug.
